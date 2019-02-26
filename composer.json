@@ -21,10 +21,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Kurisu\\ExinCore\\MixinSDKServiceProvider"
+        "Kurisu\\ExinCore\\ExinCoreServiceProvider"
       ],
       "aliases": {
-        "MixinClient": "Kurisu\\ExinCore\\Facades\\MixinSDK"
+        "ExinCore": "Kurisu\\ExinCore\\Facades\\ExinCore"
       }
     }
   }

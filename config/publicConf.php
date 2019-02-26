@@ -14,5 +14,5 @@ return [
     'pin'           => env('MIXIN_SDK_PIN'),            //
     'pin_token'     => env('MIXIN_SDK_PIN_TOKEN'),      //
     'session_id'    => env('MIXIN_SDK_SESSION_ID'),     //
-    'private_key'   => '',                                    //import your private_key
+    'private_key'   => '',                              //import your private_key
 ];
