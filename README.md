@@ -71,12 +71,12 @@ $ php artisan vendor:publish --provider="Kurisu\ExinCore\ExinCoreServiceProvider
 
 ```php
 // 1. 查询指定交易对的行情
-$baseAsset     = 'c94ac88f-4671-3976-b60a-09064f1811e8';     // uuid
-$exchangeAsset = '815b0b1a-2764-3736-8faa-42d694fa620a'; // uuid
+$baseAsset     = 'c94ac88f-4671-3976-b60a-09064f1811e8';   // uuid
+$exchangeAsset = '815b0b1a-2764-3736-8faa-42d694fa620a';   // uuid
 
-ExinCore::readExchangeList();                            // 查询全部交易对的行情
-ExinCore::readExchangeList($baseAsset);                  // 查询 baseAsset 为 $baseAsset 的交易对的行情
-ExinCore::readExchangeList($baseAsset, $exchangeAsset);  // 查询 baseAsset 为 $baseAsset , exchangeAsset 为 $exchangeAsset 的交易对的行情
+ExinCore::readExchangeList();                              // 查询全部交易对的行情
+ExinCore::readExchangeList($baseAsset);                    // 查询 baseAsset 为 $baseAsset 的交易对的行情
+ExinCore::readExchangeList($baseAsset, $exchangeAsset);    // 查询 baseAsset 为 $baseAsset , exchangeAsset 为 $exchangeAsset 的交易对的行情
 
 
 // 2. 创建订单
