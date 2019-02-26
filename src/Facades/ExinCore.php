@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static getMixinAccountConfig(): array
  *
  *
- * @see \ExinCore\Apis\Api
+ * @see \Kurisu\ExinCore\Apis\Api
  *
  * @method static createOrder($baseAsset, $exchangeAsset, $amount): array
  * @method static readExchangeList($baseAssetUuid = null, $exchangeAssetUuid = null): array
