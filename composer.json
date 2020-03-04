@@ -16,7 +16,7 @@
   },
   "require": {
     "kurisu/exincore-php-sdk": "^1.0",
-    "illuminate/support": "^5.1 || ^6.0"
+    "illuminate/support": "^5.1 || ^6.0 || ^7.0"
   },
   "extra": {
     "laravel": {
